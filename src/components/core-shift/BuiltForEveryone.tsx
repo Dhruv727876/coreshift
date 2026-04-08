@@ -1,117 +1,153 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { BarChart3, TrendingUp, FileText } from 'lucide-react';
+import { cn } from "@/lib/utils";
+import { Badge } from "@/components/ui/badge";
+import { Marquee } from "@/components/ui/marquee";
+import { Zap, TrendingUp, Search, Users } from "lucide-react";
 
-const cards = [
+const marqueeData = [
+  "How do I automate payroll for a global team?",
+  "What's the best way to track employee performance?",
+  "How can I reduce time-to-hire by 50%?",
+  "Is my HR data compliant with GDPR?",
+  "How do I manage benefits across different countries?",
+  "What should be in our new remote work policy?",
+  "How do I maintain company culture during rapid scaling?",
+  "Which recruitment metrics actually matter?",
+  "How do I simplify the onboarding process?",
+  "What's the best tool for employee engagement?",
+  "How do I handle sensitive employee disputes?",
+  "How do I transition to an all-in-one HR stack?",
+];
+
+const features = [
   {
-    title: 'For HR professionals',
-    icon: BarChart3,
-    accentColor: '#8B5CF6',
     description:
-      'Use a single cloud system for your employees, candidates and HR processes info.',
-    chartData: [65, 45, 80, 55, 70, 90],
+      "No jargon, no overcomplication — just clear steps you can follow to manage your workforce confidently.",
+    icon: Zap,
+    title: "We make HR simple",
+    color: "#EF4444", // Red
   },
   {
-    title: 'For managers & leaders',
+    description:
+      "Every tool we build is designed to help you hire faster, retain talent, and increase efficiency.",
     icon: TrendingUp,
-    accentColor: '#06B6D4',
-    description:
-      'Get always up-to-date data and monitor performance of the company.',
-    chartData: [40, 60, 50, 75, 85, 65],
+    title: "Focus on real results",
+    color: "#38BDF8", // Blue
   },
   {
-    title: 'For legal teams',
-    icon: FileText,
-    accentColor: '#8B5CF6',
     description:
-      'CoreShift helps legal teams by streamlining compliance, managing contracts and policies.',
-    chartData: [70, 55, 65, 80, 60, 75],
+      "With years of HR expertise, we bring proven frameworks and automated solutions to the table.",
+    icon: Search,
+    title: "We know scaling",
+    color: "#8B5CF6", // Purple
+  },
+  {
+    description:
+      "From your first hire to global expansion, we provide the infrastructure for every stage of growth.",
+    icon: Users,
+    title: "With you all the way",
+    color: "#FBBF24", // Yellow
   },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
-  },
-};
-
-function MiniChart({ data, color }: { data: number[]; color: string }) {
-  const max = Math.max(...data);
-  return (
-    <div className="flex items-end gap-1.5" style={{ height: 60 }}>
-      {data.map((value, i) => (
-        <motion.div
-          key={i}
-          initial={{ height: 0 }}
-          animate={{ height: (value / max) * 60 }}
-          transition={{ duration: 0.5, delay: 0.8 + i * 0.1 }}
-          className="w-3 rounded-sm"
-          style={{ backgroundColor: color, opacity: 0.7 + (i * 0.05) }}
-        />
-      ))}
-    </div>
-  );
-}
-
 export default function BuiltForEveryone() {
-  return (
-    <section id="product" className="px-6 py-20 md:py-28">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-50px' }}
-        transition={{ duration: 0.6 }}
-        className="mb-14 text-center"
-      >
-        <h2 className="mb-4 text-3xl font-bold text-black md:text-4xl lg:text-[48px]">
-          Built for everyone
-        </h2>
-        <p className="mx-auto max-w-[600px] text-base text-[#6B7280] md:text-lg">
-          Thousands of businesses, from startups to enterprises, use CoreShift to handle payments.
-        </p>
-      </motion.div>
+  const m1 = marqueeData.slice(0, marqueeData.length / 3);
+  const m2 = marqueeData.slice(
+    marqueeData.length / 3,
+    (marqueeData.length / 3) * 2,
+  );
+  const m3 = marqueeData.slice((marqueeData.length / 3) * 2);
 
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: '-50px' }}
-        className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8"
-      >
-        {cards.map((card) => (
-          <motion.div
-            key={card.title}
-            variants={cardVariants}
-            whileHover={{ y: -4, boxShadow: '0 12px 40px rgba(0,0,0,0.1)' }}
-            className="flex cursor-pointer flex-col rounded-xl bg-white p-6 shadow-md transition-all duration-300"
-          >
-            <div className="mb-4 flex items-center justify-between">
-              <div
-                className="flex h-10 w-10 items-center justify-center rounded-lg"
-                style={{ backgroundColor: `${card.accentColor}15` }}
+  return (
+    <section id="features" className="relative bg-zinc-50 pt-20 sm:pt-40 dark:bg-black dark:text-white">
+      <div className="mx-auto max-w-full">
+        <div className="mx-auto flex max-w-5xl flex-col items-center justify-center space-y-4 px-5 text-center md:px-10">
+          <h2 className="max-w-3xl font-bold text-4xl sm:text-5xl lg:text-6xl text-black dark:text-white tracking-tight">
+            Removing the roadblocks to your scaling HR
+          </h2>
+          <p className="max-w-xl text-base md:text-lg text-[#6B7280]">
+            It's easy to get lost in complex compliance, manual payroll, and
+            scattered employee data. We filter out the noise and give you 
+            the clarity to let your team focus on people.
+          </p>
+          <div className="relative mx-auto max-w-3xl overflow-hidden mt-8">
+            {/* Gradients to fade edges */}
+            <div className="absolute left-0 z-10 h-full w-20 bg-gradient-to-r from-zinc-50 to-transparent dark:from-black" />
+            <div className="absolute right-0 z-10 h-full w-20 bg-gradient-to-l from-zinc-50 to-transparent dark:from-black" />
+
+            <div className="-mx-6 flex w-screen flex-col md:-mx-10 lg:-mx-16">
+              <Marquee className="[--duration:45s] [--gap:1rem]" repeat={4}>
+                {m1.map((q) => (
+                  <Badge
+                    className="rounded-full border-zinc-200 bg-white px-4 py-2 text-zinc-600 shadow-sm whitespace-nowrap dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400"
+                    key={q}
+                    variant="outline"
+                  >
+                    {q}
+                  </Badge>
+                ))}
+              </Marquee>
+
+              <Marquee
+                className="[--duration:50s] [--gap:1rem]"
+                repeat={4}
+                reverse
               >
-                <card.icon className="h-5 w-5" style={{ color: card.accentColor }} />
-              </div>
-              <MiniChart data={card.chartData} color={card.accentColor} />
+                {m2.map((q) => (
+                  <Badge
+                    className="rounded-full border-zinc-200 bg-white px-4 py-2 text-zinc-600 shadow-sm whitespace-nowrap dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400"
+                    key={q}
+                    variant="outline"
+                  >
+                    {q}
+                  </Badge>
+                ))}
+              </Marquee>
+
+              <Marquee className="[--duration:42s] [--gap:1rem]" repeat={4}>
+                {m3.map((q) => (
+                  <Badge
+                    className="rounded-full border-zinc-200 bg-white px-4 py-2 text-zinc-600 shadow-sm whitespace-nowrap dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400"
+                    key={q}
+                    variant="outline"
+                  >
+                    {q}
+                  </Badge>
+                ))}
+              </Marquee>
             </div>
-            <h3 className="mb-2 text-lg font-semibold text-black">{card.title}</h3>
-            <p className="text-sm leading-relaxed text-[#6B7280]">{card.description}</p>
-          </motion.div>
-        ))}
-      </motion.div>
+          </div>
+        </div>
+
+        <div className="mt-20 grid grid-cols-1 divide-dashed divide-zinc-200 border-zinc-200 border-t border-dashed sm:grid-cols-2 sm:divide-x lg:grid-cols-4 dark:border-zinc-800 dark:divide-zinc-800">
+          {features.map((feature) => {
+            const Icon = feature.icon;
+            return (
+              <div
+                className="flex flex-col gap-5 px-6 py-12 lg:px-8 lg:py-16 hover:bg-white dark:hover:bg-zinc-900/50 transition-colors group cursor-default"
+                key={feature.title}
+              >
+                <div 
+                  className="size-14 rounded-2xl flex items-center justify-center text-white shadow-lg transition-transform group-hover:scale-110 group-hover:rotate-3"
+                  style={{ backgroundColor: feature.color }}
+                >
+                  <Icon className="size-7" />
+                </div>
+
+                <div className="flex flex-col gap-3 pt-6 lg:pt-12">
+                  <h3 className="font-bold text-2xl tracking-tight sm:text-3xl text-black dark:text-white">
+                    {feature.title}
+                  </h3>
+                  <p className="leading-relaxed text-[#6B7280]">
+                    {feature.description}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 }

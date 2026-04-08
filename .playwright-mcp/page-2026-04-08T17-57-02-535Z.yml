@@ -1,0 +1,285 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - navigation [ref=e8]:
+      - generic [ref=e9]:
+        - img [ref=e11]
+        - generic [ref=e15]: CoreShift
+      - generic [ref=e16]:
+        - link "Product" [ref=e17] [cursor=pointer]:
+          - /url: "#product"
+        - link "Features" [ref=e18] [cursor=pointer]:
+          - /url: "#features"
+        - link "Pricing" [ref=e19] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Resources" [ref=e20] [cursor=pointer]:
+          - /url: "#resources"
+        - button "Request Demo" [ref=e21]
+      - generic:
+        - generic:
+          - img
+    - main [ref=e22]:
+      - main [ref=e24]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img
+            - img [ref=e30]
+            - img [ref=e34]
+            - img [ref=e37]
+            - img [ref=e43]
+            - img [ref=e46]
+            - img "Team member" [ref=e50]
+            - img "Team member" [ref=e52]
+          - heading "All-in-one HR platform" [level=1] [ref=e53]
+          - paragraph [ref=e54]: CoreShift is a modern, all-in-one HR platform designed to perfectly fit your business needs
+          - button "Request a Demo" [ref=e55]
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Removing the roadblocks to your scaling HR" [level=2] [ref=e59]
+          - paragraph [ref=e60]: It's easy to get lost in complex compliance, manual payroll, and scattered employee data. We filter out the noise and give you the clarity to let your team focus on people.
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: How do I automate payroll for a global team?
+                - generic [ref=e68]: What's the best way to track employee performance?
+                - generic [ref=e69]: How can I reduce time-to-hire by 50%?
+                - generic [ref=e70]: Is my HR data compliant with GDPR?
+              - generic [ref=e71]:
+                - generic [ref=e72]: How do I automate payroll for a global team?
+                - generic [ref=e73]: What's the best way to track employee performance?
+                - generic [ref=e74]: How can I reduce time-to-hire by 50%?
+                - generic [ref=e75]: Is my HR data compliant with GDPR?
+              - generic [ref=e76]:
+                - generic [ref=e77]: How do I automate payroll for a global team?
+                - generic [ref=e78]: What's the best way to track employee performance?
+                - generic [ref=e79]: How can I reduce time-to-hire by 50%?
+                - generic [ref=e80]: Is my HR data compliant with GDPR?
+              - generic [ref=e81]:
+                - generic [ref=e82]: How do I automate payroll for a global team?
+                - generic [ref=e83]: What's the best way to track employee performance?
+                - generic [ref=e84]: How can I reduce time-to-hire by 50%?
+                - generic [ref=e85]: Is my HR data compliant with GDPR?
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: How do I manage benefits across different countries?
+                - generic [ref=e89]: What should be in our new remote work policy?
+                - generic [ref=e90]: How do I maintain company culture during rapid scaling?
+                - generic [ref=e91]: Which recruitment metrics actually matter?
+              - generic [ref=e92]:
+                - generic [ref=e93]: How do I manage benefits across different countries?
+                - generic [ref=e94]: What should be in our new remote work policy?
+                - generic [ref=e95]: How do I maintain company culture during rapid scaling?
+                - generic [ref=e96]: Which recruitment metrics actually matter?
+              - generic [ref=e97]:
+                - generic [ref=e98]: How do I manage benefits across different countries?
+                - generic [ref=e99]: What should be in our new remote work policy?
+                - generic [ref=e100]: How do I maintain company culture during rapid scaling?
+                - generic [ref=e101]: Which recruitment metrics actually matter?
+              - generic [ref=e102]:
+                - generic [ref=e103]: How do I manage benefits across different countries?
+                - generic [ref=e104]: What should be in our new remote work policy?
+                - generic [ref=e105]: How do I maintain company culture during rapid scaling?
+                - generic [ref=e106]: Which recruitment metrics actually matter?
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: How do I simplify the onboarding process?
+                - generic [ref=e110]: What's the best tool for employee engagement?
+                - generic [ref=e111]: How do I handle sensitive employee disputes?
+                - generic [ref=e112]: How do I transition to an all-in-one HR stack?
+              - generic [ref=e113]:
+                - generic [ref=e114]: How do I simplify the onboarding process?
+                - generic [ref=e115]: What's the best tool for employee engagement?
+                - generic [ref=e116]: How do I handle sensitive employee disputes?
+                - generic [ref=e117]: How do I transition to an all-in-one HR stack?
+              - generic [ref=e118]:
+                - generic [ref=e119]: How do I simplify the onboarding process?
+                - generic [ref=e120]: What's the best tool for employee engagement?
+                - generic [ref=e121]: How do I handle sensitive employee disputes?
+                - generic [ref=e122]: How do I transition to an all-in-one HR stack?
+              - generic [ref=e123]:
+                - generic [ref=e124]: How do I simplify the onboarding process?
+                - generic [ref=e125]: What's the best tool for employee engagement?
+                - generic [ref=e126]: How do I handle sensitive employee disputes?
+                - generic [ref=e127]: How do I transition to an all-in-one HR stack?
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - generic [ref=e133]:
+              - heading "We make HR simple" [level=3] [ref=e134]
+              - paragraph [ref=e135]: No jargon, no overcomplication — just clear steps you can follow to manage your workforce confidently.
+          - generic [ref=e136]:
+            - img [ref=e138]
+            - generic [ref=e141]:
+              - heading "Focus on real results" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Every tool we build is designed to help you hire faster, retain talent, and increase efficiency.
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - generic [ref=e149]:
+              - heading "We know scaling" [level=3] [ref=e150]
+              - paragraph [ref=e151]: With years of HR expertise, we bring proven frameworks and automated solutions to the table.
+          - generic [ref=e152]:
+            - img [ref=e154]
+            - generic [ref=e159]:
+              - heading "With you all the way" [level=3] [ref=e160]
+              - paragraph [ref=e161]: From your first hire to global expansion, we provide the infrastructure for every stage of growth.
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - text: Workforce Ecosystem
+          - heading "Visualize the Full Employee Lifecycle" [level=2] [ref=e165]
+          - paragraph [ref=e166]: From initial recruitment to advanced analytics, our orbital ecosystem maps every touchpoint of your human capital strategy.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Active Engagement
+          - generic [ref=e180]: Predictive Flow
+      - generic [ref=e182]:
+        - heading "Integrations" [level=2] [ref=e183]
+        - paragraph [ref=e184]: Connect your favourite apps to your workflow.
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - text: Client Success
+          - heading "Words of Appreciation" [level=2] [ref=e188]
+          - paragraph [ref=e189]: Thousands of HR professionals trust CoreShift to empower their teams and simplify their management workflows.
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - img "Sarah Mitchell" [ref=e195]
+            - img "Michael Chen" [ref=e196]
+            - img "James Carter" [ref=e197]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - heading "Sarah Mitchell" [level=3] [ref=e200]
+              - paragraph [ref=e201]: HR Director at Nexa Solutions
+              - generic [ref=e202]:
+                - generic [ref=e203]: CoreShift
+                - generic [ref=e204]: has
+                - generic [ref=e205]: streamlined
+                - generic [ref=e206]: our
+                - generic [ref=e207]: HR
+                - generic [ref=e208]: processes,
+                - generic [ref=e209]: making
+                - generic [ref=e210]: tasks
+                - generic [ref=e211]: like
+                - generic [ref=e212]: onboarding
+                - generic [ref=e213]: and
+                - generic [ref=e214]: performance
+                - generic [ref=e215]: tracking
+                - generic [ref=e216]: more
+                - generic [ref=e217]: efficient.
+                - generic [ref=e218]: It
+                - generic [ref=e219]: helps
+                - generic [ref=e220]: us
+                - generic [ref=e221]: stay
+                - generic [ref=e222]: organized
+                - generic [ref=e223]: and
+                - generic [ref=e224]: saves
+                - generic [ref=e225]: our
+                - generic [ref=e226]: team
+                - generic [ref=e227]: time,
+                - generic [ref=e228]: allowing
+                - generic [ref=e229]: us
+                - generic [ref=e230]: to
+                - generic [ref=e231]: focus
+                - generic [ref=e232]: more
+                - generic [ref=e233]: "on"
+                - generic [ref=e234]: supporting
+                - generic [ref=e235]: our
+                - generic [ref=e236]: employees.
+            - generic [ref=e237]:
+              - button "Previous testimonial" [ref=e238] [cursor=pointer]:
+                - img [ref=e239]
+              - button "Next testimonial" [ref=e241] [cursor=pointer]:
+                - img [ref=e242]
+    - contentinfo [ref=e244]:
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - generic [ref=e248] [cursor=pointer]:
+              - img [ref=e250]
+              - heading "CoreShift" [level=2] [ref=e254]
+            - paragraph [ref=e255]: The modern, all-in-one HR platform designed for scaling teams. Manage your workforce with intelligence and speed.
+            - generic [ref=e256]:
+              - link [ref=e257] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e258]
+              - link [ref=e260] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e261]
+              - link [ref=e263] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e264]
+              - link [ref=e266] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e267]
+          - generic [ref=e269]:
+            - heading "Solution" [level=3] [ref=e270]
+            - list [ref=e271]:
+              - listitem [ref=e272]:
+                - link "› Payroll Management" [ref=e273] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Payroll Management
+              - listitem [ref=e274]:
+                - link "› Recruitment (ATS)" [ref=e275] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Recruitment (ATS)
+              - listitem [ref=e276]:
+                - link "› Performance Reviews" [ref=e277] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Performance Reviews
+              - listitem [ref=e278]:
+                - link "› Time & Attendance" [ref=e279] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Time & Attendance
+              - listitem [ref=e280]:
+                - link "› Employee Self Service" [ref=e281] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Employee Self Service
+          - generic [ref=e282]:
+            - heading "Resources" [level=3] [ref=e283]
+            - list [ref=e284]:
+              - listitem [ref=e285]:
+                - link "› Help Center" [ref=e286] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Help Center
+              - listitem [ref=e287]:
+                - link "› API Docs" [ref=e288] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: API Docs
+              - listitem [ref=e289]:
+                - link "› HR Guides" [ref=e290] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: HR Guides
+              - listitem [ref=e291]:
+                - link "› Community" [ref=e292] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Community
+              - listitem [ref=e293]:
+                - link "› Status" [ref=e294] [cursor=pointer]:
+                  - /url: "#"
+                  - generic: ›
+                  - text: Status
+          - generic [ref=e295]:
+            - heading "Join our journey" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Get monthly HR insights and early access to new AI features.
+            - generic [ref=e298]:
+              - textbox "work@email.com" [ref=e299]
+              - button "Subscribe" [ref=e300]
+        - generic [ref=e301]:
+          - paragraph [ref=e303]: © 2026 Designed and developed by Dhruv
+          - generic [ref=e304]:
+            - link "Privacy" [ref=e305] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms" [ref=e306] [cursor=pointer]:
+              - /url: "#"
+            - link "Security" [ref=e307] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=e309]: Powered by HRILAX
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=e315] [cursor=pointer]:
+    - img [ref=e316]
