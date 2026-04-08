@@ -24,16 +24,22 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
       - name: Install dependencies
         run: bun install
       - name: Build with Next.js
         run: bun run build
-      - name: Debug Output
-        run: ls -la ./out || ls -R
+      - name: Check build output
+        run: |
+          if [ -d "out" ]; then
+            echo "Directory 'out' exists."
+            ls -la out
+          elif [ -d ".next" ]; then
+            echo "Directory 'out' missing, but '.next' exists."
+            ls -la .next
+          else
+            echo "Neither 'out' nor '.next' exists."
+            ls -la
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

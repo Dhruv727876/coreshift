@@ -1,13 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: "export",
   basePath: "/coreshift",
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
