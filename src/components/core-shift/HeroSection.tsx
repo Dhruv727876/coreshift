@@ -5,6 +5,7 @@ import { CheckCircle, Lightbulb, Users, Shield, Eye } from 'lucide-react';
 import { AuroraBackground } from '@/components/ui/aurora-background';
 
 export default function HeroSection() {
+  const basePath = "/coreshift";
   return (
     <section className="relative w-full">
       <AuroraBackground className="h-auto py-20 px-6">
@@ -92,7 +93,7 @@ export default function HeroSection() {
               className="absolute left-[25%] bottom-[0%] z-10 h-[52px] w-[52px] overflow-hidden rounded-full border-2 border-white shadow-md md:h-[64px] md:w-[64px]"
             >
               <img
-                src="/avatars/hero-avatar1.jpg"
+                src={`${basePath}/avatars/hero-avatar1.jpg`}
                 alt="Team member"
                 className="h-full w-full object-cover"
               />
@@ -105,7 +106,7 @@ export default function HeroSection() {
               className="absolute bottom-[2%] right-[20%] z-10 h-[52px] w-[52px] overflow-hidden rounded-full border-2 border-white shadow-md md:h-[64px] md:w-[64px]"
             >
               <img
-                src="/avatars/hero-avatar2.jpg"
+                src={`${basePath}/avatars/hero-avatar2.jpg`}
                 alt="Team member"
                 className="h-full w-full object-cover"
               />

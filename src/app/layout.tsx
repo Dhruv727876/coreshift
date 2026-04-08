@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "CoreShift is a modern, all-in-one HR platform designed to perfectly fit your business needs.",
   keywords: ["HR", "HRM", "CoreShift", "Human Resources", "Payroll", "Management"],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "/coreshift/logo.svg",
   },
 };
 
